@@ -1,0 +1,33 @@
+/* Bootstrap override */
+body {
+  background-image: url("../sprites/sky.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+h1, h2, h3, p, label, span, ul, li, th, td, .btn-default {
+  color: white;
+}
+
+a:link, a:visited, a:hover, a:active, .btn-link {
+  color: #ffc107;
+}
+
+/* Custom Style */
+
+#main {
+  text-align: center;
+}
+
+#main h1, #login h1, #register h1, #stats h1, #top h1, #howto h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    text-align: center;
+}
+
+#mainMenu div {
+  display: grid;
+  margin-bottom: 10px;
+}
